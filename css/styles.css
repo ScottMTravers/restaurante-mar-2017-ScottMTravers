@@ -124,12 +124,8 @@
 
 /*==========MENU==========*/
 #menu {
-    min-height: 500px;
+    min-height: 800px;
     background-image: url('../img/black_linen.png');
-}
-
-#menu .col-sm-8 {
-    margin-bottom: 80px;
 }
 
 #menu h3.lobster-text.white-text {
@@ -147,7 +143,35 @@
     width: 100%;
 }
 
-.nav-tabs>li.active>a, .nav-tabs.nav-justified>li>a {
-    text-decoration: none;
+.nav-tabs>li>a:hover, .nav>li>a:focus, .nav>li>a:hover {
+    background-color: transparent;
+    border-color: #F8512F;
     color: #F8512F;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #F8512F;
+}
+
+/*==========CONTACT US==========*/
+#contact {
+    background-color: #F8512F;
+}
+
+#contact h3 {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+#contact .col-xs-12 {
+    margin-bottom: 50px;
+}
+
+#contact form {
+    background-color: #FF6633;
+    padding: 15px;
+}
+
+#contact form label span {
+    color: red;
 }
