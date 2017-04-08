@@ -102,6 +102,8 @@
 
 /*==========FRESNO BEE==========*/
 #review {
+    padding-top: 60px;
+    margin-top: -30px;
     height: 500px;
     background-image: url('../img/food_review.jpg');
     background-size: cover;
@@ -160,6 +162,8 @@
 
 /*==========CONTACT US==========*/
 #contact {
+    padding-top: 60px;
+    margin-top: -30px;
     background-color: #F8512F;
 }
 
